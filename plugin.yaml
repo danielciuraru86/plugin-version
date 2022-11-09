@@ -1,13 +1,13 @@
 name: "aqua"
 repository: github.com/aquasecurity/trivy-plugin-aqua
-version: "v0.86.4-tst-daniel"
+version: "v0.86.4"
 usage: trivy aqua <srcPath>
 description: A Trivy plugin that sends results to Aqua.
 platforms:
   - selector: # optional
       os: linux
       arch: amd64
-    uri: https://github.com/aquasecurity/trivy-plugin-aqua/releases/download/v0.86.4-tst-daniel/linux_amd64_v0.86.4-tst-daniel.tar.gz
+    uri: https://github.com/aquasecurity/trivy-plugin-aqua/releases/download/v0.86.4/linux_amd64_v0.86.4.tar.gz
     bin: ./aqua
   - selector:
       os: linux
